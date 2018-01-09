@@ -24,7 +24,7 @@ class PostsController < ApplicationController
   end
 
   def edit
-    @post = current_user.edit
+    # @post = current_user.new
   end
 
   def update
